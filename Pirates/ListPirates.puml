@@ -1,0 +1,12 @@
+@startuml Arrrr
+
+
+!include JollyRoger.puml
+!include Pirate.puml
+!include PirateSkull.puml
+!include PirateSkull2.puml
+!include WomanPirate.puml
+
+listsprites
+
+@enduml
