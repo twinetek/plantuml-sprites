@@ -1,0 +1,9 @@
+@startuml Shinobi
+
+!include Ninja.puml
+!include Ninja2.puml
+!include Ninja3.puml
+
+listsprites
+
+@enduml
