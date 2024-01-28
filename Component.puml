@@ -1,0 +1,19 @@
+@startuml Sequence
+
+!include Pirates\Pirate.puml
+!include Pirates\WomanPirate.puml
+
+skinparam Agent {
+    BackgroundColor Transparent
+    BorderColor Transparent
+    TextAlignment Center
+}
+
+skinparam DefaultTextAlignment Center
+
+Agent "<$Pirate_100>\nBob" as Bob
+Agent "<$WomanPirate_100>\nAlice" as Alice
+
+Bob -> Alice : Hello
+
+@enduml
